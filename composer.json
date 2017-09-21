@@ -1,23 +1,23 @@
 {
-    "name": "demmonico/yii2-models",
+    "name": "inspirenmy/yii2-models",
     "type": "yii2-extension",
     "description": "Yii2 models library",
     "keywords": ["yii", "yii2", "model", "extension", "component"],
-    "homepage": "https://github.com/demmonico/yii2-models",
+    "homepage": "https://github.com/inspirenmy/yii2-models",
     "license": "MIT",
     "authors": [
-        {"name": "Dmitry demmonico", "email": "demmonico@gmail.com"}
+        {"name": "Dmitry inspirenmy", "email": "inspirenmy@gmail.com"}
     ],
     "require": {
         "php": ">5.5.0",
         "yiisoft/yii2": "~2.0.0",
 
-        "demmonico/yii2-behaviors": "*",
-        "demmonico/yii2-traits": "*"
+        "inspirenmy/yii2-behaviors": "*",
+        "inspirenmy/yii2-traits": "*"
     },
     "autoload": {
         "psr-4": {
-            "demmonico\\models\\": "src"
+            "inspirenmy\\models\\": "src"
         }
     }
 }

@@ -4,10 +4,10 @@
  * Date: 08.07.16
  */
 
-namespace demmonico\models;
+namespace inspirenmy\models;
 
-use demmonico\behaviors\SanitizeBehavior;
-use demmonico\behaviors\TimestampBehavior;
+use inspirenmy\behaviors\SanitizeBehavior;
+use inspirenmy\behaviors\TimestampBehavior;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Json;
 

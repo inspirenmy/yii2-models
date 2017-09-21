@@ -4,9 +4,9 @@
  * Date: 08.07.16
  */
 
-namespace demmonico\models;
-use demmonico\behaviors\SanitizeBehavior;
-use demmonico\traits\AjaxValidationTrait;
+namespace inspirenmy\models;
+use inspirenmy\behaviors\SanitizeBehavior;
+use inspirenmy\traits\AjaxValidationTrait;
 use yii\helpers\ArrayHelper;
 
 

@@ -9,21 +9,21 @@ Yii2 models library which used in web-application development.
 
 ActiveRecord model overload parent `\yii\db\ActiveRecord`. 
 This add features:
- - sanitize rules (see [https://github.com/demmonico/yii2-behaviors](https://github.com/demmonico/yii2-behaviors))
+ - sanitize rules (see [https://github.com/inspirenmy/yii2-behaviors](https://github.com/inspirenmy/yii2-behaviors))
  - TimestampBehavior for autocomplete create and update date fields if they exists in any child model
  - autocollect model saving errors at application logs.
 
 #####Usage:
 
 ```php
-class AnyModel extends \demmonico\models\ActiveRecord {...}
+class AnyModel extends \inspirenmy\models\ActiveRecord {...}
 ```
 
 ###Model
 Model model overload parent `\yii\base\Model`. 
 This add features:
- - sanitize rules (see [https://github.com/demmonico/yii2-behaviors](https://github.com/demmonico/yii2-behaviors))
- - perform ajax validation method (see [https://github.com/demmonico/yii2-traits](https://github.com/demmonico/yii2-traits)).
+ - sanitize rules (see [https://github.com/inspirenmy/yii2-behaviors](https://github.com/inspirenmy/yii2-behaviors))
+ - perform ajax validation method (see [https://github.com/inspirenmy/yii2-traits](https://github.com/inspirenmy/yii2-traits)).
  
 So sanitize rule can inherits by any form.  
 
@@ -32,7 +32,7 @@ So sanitize rule can inherits by any form.
 in model 
 
 ```php
-class AnyForm extends \demmonico\models\Model {...}
+class AnyForm extends \inspirenmy\models\Model {...}
 ```
 
 in controller use ajax validation
